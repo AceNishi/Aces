@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Welcome to Cebu</title>
+<style>
+    body {
+        font-family: Georgia, serif;
+		font-size: 15px;
+		background-image: url('cbu.jpg');
+        margin: 0;
+        padding: 0;
+        background-color: #FBE9E7;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #FBE9E7;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    p {
+        color: #666;
+        line-height: 1.6;
+    }
+
+    .video-container {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .map-container {
+        margin-top: 20px;
+    }
+
+    .image-container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image-container img {
+        width: 48%;
+        border-radius: 5px;
+    }
+
+    .audio-container {
+        margin-top: 20px;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>About Cebu</h1>
+    <p>Home to nearly 170 islands, Cebu lives up to its moniker as "The Gateway to a Thousand Journeys." There isn't a shortage of explorations and activities to do in Cebu, not to mention good Filipino food to sate your cravings in between, easily making it one of the best tourist spots in the Philippines.</p>
+    
+    <Cebu Video>
+    <div class="video-container">
+        <video controls width="500">
+            <source src="cebuvid.mp4" type="video/mp4">
+        </video>
+		<p> Discover the best things in Cebu City</p> 
+    </div>
+
+    <Map>
+	<center>
+    <div style="overflow:hidden;resize:none;max-width:100%;width:500px;height:500px;">
+	<div id="g-mapdisplay" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Cebu+City,+Cebu,+Philippines&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+	</div>
+	<a class="from-embedmap-code" href="https://www.bootstrapskins.com/themes" id="auth-map-data">premium bootstrap themes</a>
+	<style>#g-mapdisplay img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+	</div>
+
+    
+    <div class="image-container">
+		<div>
+			 <img src="lechon.jpg" alt="Image 1">
+			 <p>Lechon de Cebu</p>
+			 <center>
+		</div>
+		<div>
+			<img src="otap.jpg" alt="Image 2">
+			<p>Otap</p>
+			<center>
+		<style>
+        .image-container img {
+            width: 300px;
+            height: auto;
+        }
+        </style>
+		</div>
+	</div>
+
+    <Cebu>
+    <div class="audio-container">
+		<h1>Bangon Ka Ina</h1>
+	    <audio controls>
+	        <source src="cebusong.mp3" type="audio/mpeg">
+	    </audio>
+	    <p>Usahay</p>
+	    <p>The famous Visayan song“Usahay” - the song gained its popularity in Cebu particularly when the Queen of Visayan songs, Susan Fuentes, sang it back in the 80s.</p>
+	</div>
+</div>
+</body>
+</html>
