@@ -1,55 +1,48 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>5 Philippine Tourist Spots you should visit</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSS Border Shape Activity</title>
 <style>
-    body {
-        font-family: Lucida Console, Monospace;
-        margin: 2;
-        padding: 2;
-		background-image: url('mnl.jpg');
-    }
-    .container {
-        width: 90%;
-        margin: 0 auto;
-        text-align: center;
-    }
-    h1 {
-        margin-top: 80px;
-		color: #FFEE58;
-    }
-    .spots {
-        margin-top: 50px;
-    }
-    .spots a {
-        text-decoration: outline-blue;
-        color: #FFFDE7;
-		font-family: Georgia, serif;
-        font-size: 29px;
-        margin: 10px;
-        padding: 10px 20px;
-        border: 5px solid #FFF176;
-        border-radius: 15px;
-        transition: all 0.3s ease;
-        display: inline-block;
-    }
-    .spots a:hover {
-        background-color: #41748D
-        color: #95AEB0;
-        transform: scale(1.5);
-    }
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ background-color: #9ac0cd;
+ margin: 0;
+}
+.cherrytop {
+ width: 40px;
+ height: 40px; 
+ background-color: #C0392B; 
+ border-radius: 50%; 
+ position: absolute; 
+ bottom: 424px;
+}
+.icecream-scoop {
+ width: 100px;
+ height: 100px; 
+ background-color: #ffaeb9; 
+ border-radius: 50%; 
+ position: absolute; 
+ bottom: 345px; 
+}
+.icecream-cone {
+ width: 0;
+ height: 0;
+ border-left: 50px solid transparent;
+ border-right: 50px solid transparent;
+ border-top: 150px solid #DC7633;
+ position: absolute; 
+ bottom: 235px; 
+}
 </style>
 </head>
 <body>
-
-<div class="container">
-    <h1>Explore more about Cebu</h1>
-    <div class="spots">
-        <a href="cebu.html">Cebu</a>
-    </div>
-</div>
-
+<div class="cherrytop"></div>
+<div class="icecream-scoop"></div> 
+<div class="icecream-cone"></div>
 </body>
 </html>
